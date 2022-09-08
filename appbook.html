@@ -1,0 +1,73 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style> 
+h1{
+  font-family: Times New Roman;
+  font-size: 300%;
+}  
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url("Kitty.jpg");
+    background-size: cover;
+    background-position: right 0px;
+}  
+button {   
+       background-color: red;   
+       width: 100%;  
+        color: rgb(255, 247, 22);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid green; 
+        background-color:aqua;
+        width: 30%;
+        position: relative;
+        left:570px;
+
+    }   
+ input[type=text], input[type=date] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid rgb(213, 216, 18);   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;  
+    }   
+</style>   
+</head>    
+<body>   
+    <form action="appbook.php" method="POST">
+    <center> <h1 style="color: navy;"> APPOINTMENT BOOK  </h1> </center>   
+    <form>  
+        <div class="container"> 
+            <label style="color: purple;">Pet ID : </label>   
+            <input type="text" placeholder="Enter Pet ID" id="Username" name="petid" required>  
+            <label style="color: purple;">Enter Appointment date : </label>   
+            <input type="date" placeholder="Select Date" id="Appointment date" name="dater" required>  
+            <label style="color: purple;">Symptom(if any) : </label>   
+            <input type="text" placeholder="Enter Symptom(if any)" id="Symptom" name="symptom">
+            <button type="submit" name="bookapp">Book Appointment</button>
+        </div>   
+    </form>    
+
+</body>     
+</html>  

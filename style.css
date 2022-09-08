@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(annaschultz.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:azure;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: skyblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: antiquewhite;
+    }
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: mediumorchid;
+    }
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: dodgerblue;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.button-1{
+    width: 250px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 100px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background: red;
+    box-shadow: inset 0 0 0 0 navy;
+    color: ghostwhite;
+    transition: ease-out 0.3s;
+    outline:none;
+}
+.button-2{
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 400px 80px;
+    border-radius: 50px;
+    font-weight: bold;
+    border-color: transparent;
+    background: navy;
+    box-shadow: inset 0 0 0 0 seagreen;
+    color: yellow;
+    transition: ease-out 0.3s;
+    outline:none;
+}
+.button-2:hover {
+    box-shadow: inset 300px 0 0 0 seagreen;
+
+}
+button-2:hover{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

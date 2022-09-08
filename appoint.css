@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Petturtle.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.appo{
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:skyblue;
+    padding: 10px;
+    margin: 8% auto 0;
+    text-align: center 20px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+label{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: italic;
+}
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: rgb(255, 247, 22);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }
+.input{
+    
+border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
